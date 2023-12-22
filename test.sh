@@ -24,3 +24,5 @@ clear
 echo "Выбери фонт:"
 echo " "
 $HOME/.termux/fonts.sh
+
+clear
