@@ -15,12 +15,12 @@ sed -i '1iZSH_THEME="agnoster"' "$HOME/.zshrc"
 echo "alias chcolor='$HOME/.termux/colors.sh'" >> "$HOME/.zshrc"
 echo "alias chfont='$HOME/.termux/fonts.sh'" >> "$HOME/.zshrc"
 
-echo "oh-my-zsh install complete!\nChoose your color scheme now~"
+clear
+echo "Выбери цвет:"
+echo " "
 $HOME/.termux/colors.sh
 
-echo "Choose your font now~"
+clear
+echo "Выбери фонт:"
+echo " "
 $HOME/.termux/fonts.sh
-
-echo "Please restart Termux app..."
-
-exit
